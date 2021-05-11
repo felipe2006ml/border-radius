@@ -1,0 +1,39 @@
+.container {
+    width: 550px;
+    position: relative;
+    margin: 50px auto;
+}
+
+#content {
+    width: 460px;
+    height: 260px;
+    border: 1px solid black;
+}
+
+.inputs {
+    position: absolute;
+}
+
+.inputs-val {
+    width: 15px;
+}
+
+#input-tl {
+    top: -30px;
+    left: -30px;
+}
+
+#input-tr {
+    top: -30px;
+    right: 60px;
+}
+
+#input-br {
+    bottom: -30px;
+    left: -30px;
+}
+
+#input-bl {
+    bottom: -30px;
+    right: 60px;
+}
